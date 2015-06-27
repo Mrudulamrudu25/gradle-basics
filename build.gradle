@@ -1,0 +1,8 @@
+
+// compile java
+apply plugin: 'java'
+
+// make the runnable application
+apply plugin: 'application'
+
+mainClassName = "demo.App"
