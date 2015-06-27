@@ -7,6 +7,11 @@ apply plugin: 'application'
 // set the main class of the runnable
 mainClassName = "demo.App"
 
+jar {
+    baseName = 'Greeter'
+    version = '0.1.0'
+}
+
 // allow fetching dependencies from mvn repos
 repositories {
     mavenCentral()
